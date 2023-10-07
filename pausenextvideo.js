@@ -1,25 +1,4 @@
-// wacth video when scroll to viewport is play and pause when scroll out viewport using IntersectionObserver
-let videos = document.querySelectorAll("video");
-let options = {
-  root: null,
-  rootMargin: "0px",
-  threshold: 0.5,
-};
-let callback = (entries, observer) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.play();
-    } else {
-      entry.target.pause();
-    }
-  });
-}
-let observer = new IntersectionObserver(callback, options);
-videos.forEach((video) => {
-  observer.observe(video);
-}
-);
- // auto next video
+// auto next video
   var v = document.getElementById("Vid");
 v.autoplay = true;
 v.load();
