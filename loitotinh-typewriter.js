@@ -1,6 +1,6 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-"There are only 10 types of people in the world:", 
+"Nếu không có em, ngày sẽ thật buồn và đêm dường như bất tận. Nếu không có em, ngày sẽ không nắng và đêm sẽ không sao. Nếu không có em, cuộc sống của anh chỉ là một bản nhạc buồn và nếu không có em anh không biết mình sẽ như thế nào?", 
 "Those who understand binary, and those who don't"
 );
 var iSpeed = 100; // time delay of print out
